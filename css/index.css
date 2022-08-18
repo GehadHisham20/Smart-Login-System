@@ -1,0 +1,35 @@
+body{
+    background-color: #24353f;
+    font-family: "Titillium Web", sans-serif;
+    color:#17a2b8 ;
+}
+
+
+.custom-shadow{
+    box-shadow: -5px 1px 50px -9px black;
+}
+.btn-outline-info{
+    color:#17a2b8 ;
+    border-color: #17a2b8;
+}
+#view .btn{
+    width: 100%;
+    transition-property: color background-color border-color;
+}
+#view .btn:hover{
+    background-color: #17a2b8;
+    border-color: transparent;
+    color: white;
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+
+}
+#view a{
+    text-decoration: none;
+    color: white;
+}
+#view a:hover{
+    text-decoration: underline;
+}

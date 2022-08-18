@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/index.css" >
+    <title>Login</title>
+  </head>
+
+
+
+
+  <body >
+    
+     <div class="h-100 d-flex flex-wrap align-items-start">
+      <nav class="container-fluid p-3 custom-shadow d-none d-flex justify-content-around">
+        <a href="#" class="text-decoration-none text-white fs-4">SMART LOGIN</a>
+       <button class="btn btn-outline-warning">logout</button>
+       </nav>
+       <div id="view" class="mt-5 container col-md-7 text-center p-5 custom-shadow">
+        <h1>Smart Login System</h1>
+         <input type="text" id="email" class="form-control mt-4 mb-3" placeholder="Enter your email">
+        <input type="password" id="password" class="form-control" placeholder="Enter your password">
+        <p class="errorHandling text-danger mt-3"></p>
+        <a class="btn btn-outline-info my-4 text-decoration-none" onclick='login()'>Login</a>
+        <p class="text-white">Don't have an account? <a href="#" onclick='switchToView("signup")'>Sign Up</a></p>
+      </div>
+     </div>
+  
+
+
+   
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
