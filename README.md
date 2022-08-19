@@ -4,5 +4,5 @@ sign up and login system with simple validation system <br/> The system uses loc
 1. "incorrect email or password" if you entered incorrect email or password in login process.
 2. "All inputs required" if you didn't fill all inputs in login or register process.
 3. "Email already exists" if you entered existing email in register process.
-4. "Email is incorrect (ex:example@mail.com)" if you entered wrong email format in register process.
-## Try it: https://62fe52dfa1c03e0059c39c60--luminous-scone-021c6d.netlify.app/
+4. "Email is incorrect (ex:example@mail.com)" if you entered wrong email format in register process.<br/>
+Try it: https://gehadhisham20.github.io/Smart-Login-System/
